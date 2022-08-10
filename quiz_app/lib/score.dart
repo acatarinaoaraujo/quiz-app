@@ -16,7 +16,7 @@ class Score extends StatelessWidget {
           Text(
             scoreText.toString(),
             style: TextStyle(
-                fontSize: 24,
+                fontSize: 26,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.w800),
             textAlign: TextAlign.right,
@@ -24,7 +24,7 @@ class Score extends StatelessWidget {
           Icon(
             Icons.diamond_sharp,
             color: Colors.blue,
-            size: 24.0,
+            size: 26.0,
             semanticLabel: 'Text to announce in accessibility modes',
           ),
         ],
