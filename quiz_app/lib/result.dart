@@ -23,21 +23,32 @@ class Result extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Column(
-        children: <Widget>[
-          Text(
-            resultPhrase,
-            style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
-            textAlign: TextAlign.center,
-          ),
-          FlatButton(
-            child: Text(
-              'Restart Quiz!',
+      child: Container(
+        width: double.infinity,
+        height: 120.0,
+        margin: EdgeInsets.all(10),
+        child: Column(
+          children: <Widget>[
+            Text(
+              resultPhrase,
+              style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
-            textColor: Colors.blue,
-            onPressed: resetHandler,
-          ),
-        ],
+            FlatButton(
+              child: Text(
+                'Restart Quiz!',
+              ),
+              textColor: Colors.white,
+              onPressed: resetHandler,
+            ),
+            Icon(
+              Icons.diamond_sharp,
+              color: Colors.amber,
+              size: 30.0,
+              semanticLabel: 'Text to announce in accessibility modes',
+            ),
+          ],
+        ),
       ),
     );
   }

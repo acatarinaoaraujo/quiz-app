@@ -77,6 +77,7 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: Color.fromRGBO(68, 104, 187, 20),
         appBar: AppBar(
           title: Text('Data Structure Quizlet'),
+          backgroundColor: Color.fromRGBO(68, 104, 187, 20),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(

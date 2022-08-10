@@ -14,17 +14,25 @@ class Score extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Text(
+            'SCORE: ',
+            style: TextStyle(
+                fontSize: 22,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.w600,
+                color: Colors.white),
+          ),
+          Text(
             scoreText.toString(),
             style: TextStyle(
-                fontSize: 26,
+                fontSize: 28,
                 fontFamily: 'Raleway',
-                fontWeight: FontWeight.w800),
-            textAlign: TextAlign.right,
+                fontWeight: FontWeight.w600,
+                color: Colors.white),
           ),
           Icon(
             Icons.diamond_sharp,
             color: Colors.amber,
-            size: 26.0,
+            size: 30.0,
             semanticLabel: 'Text to announce in accessibility modes',
           ),
         ],
