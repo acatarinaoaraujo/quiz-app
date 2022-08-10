@@ -13,7 +13,10 @@ class Question extends StatelessWidget {
       child: Text(
         questionText,
         style: TextStyle(
-            fontSize: 28, fontFamily: 'Raleway', fontWeight: FontWeight.w800),
+            fontSize: 28,
+            fontFamily: 'Raleway',
+            fontWeight: FontWeight.w800,
+            color: Colors.white),
         textAlign: TextAlign.center,
       ),
     );

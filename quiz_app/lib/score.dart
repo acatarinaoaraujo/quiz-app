@@ -23,7 +23,7 @@ class Score extends StatelessWidget {
           ),
           Icon(
             Icons.diamond_sharp,
-            color: Colors.blue,
+            color: Colors.amber,
             size: 26.0,
             semanticLabel: 'Text to announce in accessibility modes',
           ),

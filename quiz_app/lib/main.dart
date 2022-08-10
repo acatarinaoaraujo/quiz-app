@@ -74,8 +74,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Color.fromRGBO(68, 104, 187, 20),
         appBar: AppBar(
-          title: Text('My First App'),
+          title: Text('Data Structure Quizlet'),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
