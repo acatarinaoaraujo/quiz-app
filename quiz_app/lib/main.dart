@@ -19,30 +19,112 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText':
+          'What is the worst case time complexity of linear search algorithm?',
       'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Red', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1},
+        {'text': 'O(1)', 'score': 0},
+        {'text': 'O(n)', 'score': 0},
+        {'text': 'O(log n)', 'score': 0},
+        {'text': 'O(n^2)', 'score': 10},
       ],
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText':
+          'What data structure is used for depth first traversal of a graph?',
       'answers': [
-        {'text': 'Rabbit', 'score': 3},
-        {'text': 'Snake', 'score': 11},
-        {'text': 'Elephant', 'score': 5},
-        {'text': 'Lion', 'score': 9},
+        {'text': 'Queue', 'score': 0},
+        {'text': 'Stack', 'score': 10},
+        {'text': 'List', 'score': 0},
+        {'text': 'None of the above', 'score': 0},
       ],
     },
     {
-      'questionText': 'Who\'s your favorite instructor?',
+      'questionText':
+          'Minimum number of moves required to solve a Tower of Hanoi puzzle is',
       'answers': [
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
+        {'text': '2n^2', 'score': 0},
+        {'text': '2^(n-1)', 'score': 0},
+        {'text': '2^(n)-1', 'score': 10},
+        {'text': '2n-1', 'score': 0},
+      ],
+    },
+    {
+      'questionText':
+          'If the array is already sorted, which of these algorithms will exhibit the best performance',
+      'answers': [
+        {'text': 'Merge Sort', 'score': 0},
+        {'text': 'Insertion Sort', 'score': 10},
+        {'text': 'Quick Sort', 'score': 0},
+        {'text': 'Heap Sort', 'score': 0},
+      ],
+    },
+    {
+      'questionText':
+          'Which method can find if two vertices x & y have path between them?',
+      'answers': [
+        {'text': 'Depth First Search', 'score': 0},
+        {'text': 'Breadth First Search', 'score': 0},
+        {'text': 'Both A & B', 'score': 10},
+        {'text': 'None of them', 'score': 0},
+      ],
+    },
+    {
+      'questionText':
+          'How many swaps are required to sort the given array using bubble sort - { 2, 5, 1, 3, 4}',
+      'answers': [
+        {'text': '4', 'score': 10},
+        {'text': '5', 'score': 0},
+        {'text': '6', 'score': 0},
+        {'text': '7', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Index of arrays in C programming langauge starts from',
+      'answers': [
+        {'text': '0', 'score': 10},
+        {'text': '1', 'score': 0},
+        {'text': 'either 0 or 1', 'score': 0},
+        {'text': 'undefined', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'In a min heap',
+      'answers': [
+        {'text': 'Minimum values are stored.', 'score': 0},
+        {'text': 'Child nodes have less value than parent nodes.', 'score': 0},
+        {'text': 'Parent nodes have less value than child nodes.', 'score': 10},
+        {'text': 'Maximum value is contained by the root node.', 'score': 0},
+      ],
+    },
+    {
+      'questionText': 'Shel sort uses',
+      'answers': [
+        {'text': 'Insertion Sort', 'score': 10},
+        {'text': 'Merge Sort', 'score': 0},
+        {'text': 'Selection Sort', 'score': 0},
+        {'text': 'Quick Sort', 'score': 0},
+      ],
+    },
+    {
+      'questionText':
+          'Interpolation search is an improved variant of binary search. It is necessary for this search algorithm to work that −',
+      'answers': [
+        {
+          'text':
+              'Data collection should be in  sorted form and equally distributted.',
+          'score': 10
+        },
+        {
+          'text':
+              'Data collection should be in sorted form but not equally distributed.',
+          'score': 0
+        },
+        {
+          'text':
+              'Data collection should be equally distributed but not sorted.',
+          'score': 0
+        },
+        {'text': 'None of the above.', 'score': 0},
       ],
     },
   ];
